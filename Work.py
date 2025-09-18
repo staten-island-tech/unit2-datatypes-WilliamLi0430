@@ -1,8 +1,6 @@
-homework = input("Do you have homework?")
-
-def not_movies(homework):
-    if homework == ("Yes"):
-        print("Homework Time")
-    else:
-        print("Movie Time")
-not_movies(homework)
+number = input("What is your number? ")
+something = (int(number)%2)
+if something == 1:
+    print ("Your number is odd.")
+else:
+    print("Your number is even.")
