@@ -24,3 +24,12 @@ def not_movies(homework):
     else:
         print("Homework Time")
 not_movies(homework) """
+
+#remember to put int before input when comparing integers to strings.
+""" temp = int(input("What is the temperature?"))
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
