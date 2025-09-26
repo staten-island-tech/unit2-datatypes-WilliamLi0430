@@ -1,12 +1,13 @@
 import random
-int(input("Guess the number" ))
-list (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-number = random.choice(list)
+number = random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 while True:
-    if input > number:
+    x = int(input("Guess the number between 1 and 10 "))
+
+    if x > number:
         print("Less")
-    elif input == number:
-        print("Equal")
-    else:
+    elif x < number:
         print("Greater")
+    else:
+        print("Correct")
+        break
