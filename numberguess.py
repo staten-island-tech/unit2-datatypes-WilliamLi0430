@@ -8,11 +8,13 @@ while True:
     if x > number:
         guess_history.append(x)
         print("Less")
+        print(f"You have guessed {guess_history}")
     elif x < number:
         guess_history.append(x)
         print("Greater")
+        print(f"You have guessed {guess_history}")
     else:
         guess_history.append(x)
         print("Correct")
         print(f"Here are your guesses: {guess_history}")
-    break
+        break
