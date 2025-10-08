@@ -3,7 +3,7 @@ number = random.choice(list(range(1000000)))
 guess_history = []
 
 while True:
-    x = int(input("Guess the number between 1 and 1000000 "))
+    x = int(input("Guess the number between 1 and 1000000: "))
 
     if x > number:
         guess_history.append(x)
